@@ -5,22 +5,35 @@
   width: 100%;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
-
   background-color: #fff;
   border-bottom: solid 2px rgb(229, 229, 229);
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: rgb(229, 229, 229);
+
+  @media screen and (max-width: 667px) {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
   & > .logo {
     width: 12rem;
     margin-left: 2.4rem;
+    @media screen and (max-width: 667px) {
+      margin-left: 0.1rem !important;
+      width: 8rem;
+    }
   }
 
   & > .main-menu {
     cursor: pointer;
     font-size: 22px;
     margin-right: 3.2rem !important;
+
+    @media screen and (max-width: 667px) {
+      margin-right: 0.6rem !important;
+      font-size: 18px;
+    }
 
     & > span {
       text-transform: uppercase;

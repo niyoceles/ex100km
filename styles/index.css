@@ -1231,15 +1231,36 @@ img {
   color: #e5e5e5;
 }
 
+@media screen and (max-width: 667px) {
+  .main-header {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
 .main-header > .logo {
   width: 12rem;
   margin-left: 2.4rem;
+}
+
+@media screen and (max-width: 667px) {
+  .main-header > .logo {
+    margin-left: 0.1rem !important;
+    width: 8rem;
+  }
 }
 
 .main-header > .main-menu {
   cursor: pointer;
   font-size: 22px;
   margin-right: 3.2rem !important;
+}
+
+@media screen and (max-width: 667px) {
+  .main-header > .main-menu {
+    margin-right: 0.6rem !important;
+    font-size: 18px;
+  }
 }
 
 .main-header > .main-menu > span {
