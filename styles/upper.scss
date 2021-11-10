@@ -7,10 +7,11 @@
     margin: 1.2rem 3.7rem;
     width: 30%;
     margin-right: 0.1rem !important;
-    @media (max-width: 667px) {
+    @media screen and (max-width: 886px) {
       display: grid;
       grid-template-columns: auto auto;
       padding: 0.3rem !important;
+      margin: 0.1rem 0.5rem !important;
       width: 100%;
       & > div {
         padding: 0.2rem;
@@ -18,9 +19,9 @@
     }
   }
 
-  @media (max-width: 667px) {
+  @media screen and (max-width: 667px) {
     flex-flow: column;
-    padding: 0 4rem !important;
+    padding: 0 0.2rem !important;
     padding-top: 3rem !important;
   }
 
@@ -48,7 +49,7 @@
     margin-right: 4rem;
     padding: 2rem 2rem;
 
-    @media (max-width: 667px) {
+    @media screen and (max-width: 667px) {
       width: 100%;
       margin-right: 0 !important;
     }
@@ -63,7 +64,7 @@
       justify-content: space-around;
       align-items: center;
 
-      @media (max-width: 480px) {
+      @media screen and (max-width: 480px) {
         flex-flow: column;
       }
 
@@ -73,7 +74,7 @@
         border-radius: 0.7rem;
         color: rgb(62, 151, 255);
 
-        @media (max-width: 667px) {
+        @media screen and (max-width: 667px) {
           padding: 0.5rem 0.7rem;
         }
       }
@@ -88,7 +89,7 @@
       &__content {
         margin: 0.8rem 4rem;
 
-        @media (max-width: 667px) {
+        @media screen and (max-width: 667px) {
           margin: 0.5rem 1.2rem;
         }
         & p {
@@ -142,7 +143,7 @@
     text-transform: capitalize;
     cursor: pointer;
 
-    @media (max-width: 667px) {
+    @media screen and (max-width: 667px) {
       display: none;
     }
 

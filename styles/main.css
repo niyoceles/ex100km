@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 667px) {
+@media (min-width: 667px) {
   .main-div .display-small {
     display: none;
   }

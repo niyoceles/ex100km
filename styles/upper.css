@@ -13,13 +13,14 @@
   margin-right: 0.1rem !important;
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 886px) {
   .upper-div__aside {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
     padding: 0.3rem !important;
+    margin: 0.1rem 0.5rem !important;
     width: 100%;
   }
   .upper-div__aside > div {
@@ -27,13 +28,13 @@
   }
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .upper-div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    padding: 0 4rem !important;
+    padding: 0 0.2rem !important;
     padding-top: 3rem !important;
   }
 }
@@ -64,7 +65,7 @@
   padding: 2rem 2rem;
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .upper-div__right {
     width: 100%;
     margin-right: 0 !important;
@@ -87,7 +88,7 @@
           align-items: center;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .upper-div__right .percentages {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -103,7 +104,7 @@
   color: #3e97ff;
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .upper-div__right .percentages__wrapper {
     padding: 0.5rem 0.7rem;
   }
@@ -121,7 +122,7 @@
   margin: 0.8rem 4rem;
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .upper-div__right .percentages__content {
     margin: 0.5rem 1.2rem;
   }
@@ -192,7 +193,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 667px) {
+@media screen and (max-width: 667px) {
   .upper-div__button {
     display: none;
   }
