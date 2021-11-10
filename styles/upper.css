@@ -1,0 +1,208 @@
+.upper-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #eeeeee;
+  padding: 0 2.3rem;
+  padding-top: 4rem !important;
+}
+
+.upper-div__aside {
+  margin: 1.2rem 3.7rem;
+  width: 30%;
+  margin-right: 0.1rem !important;
+}
+
+@media (max-width: 667px) {
+  .upper-div__aside {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    padding: 0.3rem !important;
+    width: 100%;
+  }
+  .upper-div__aside > div {
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 667px) {
+  .upper-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 0 4rem !important;
+    padding-top: 3rem !important;
+  }
+}
+
+.upper-div__img {
+  width: 8rem;
+  height: 4rem;
+  margin: 2.6rem 0;
+}
+
+.upper-div__main-content {
+  margin: 2.8rem 0;
+}
+
+.upper-div__main-content > p {
+  line-height: 1.2rem;
+  color: #525252;
+}
+
+.upper-div__main-content span {
+  color: #ff5d27;
+}
+
+.upper-div__right {
+  background-color: #e5e5e5;
+  width: 70%;
+  margin-right: 4rem;
+  padding: 2rem 2rem;
+}
+
+@media (max-width: 667px) {
+  .upper-div__right {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}
+
+.upper-div__right h3 {
+  text-transform: uppercase;
+  margin: 2.3rem 0;
+}
+
+.upper-div__right .percentages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 480px) {
+  .upper-div__right .percentages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+.upper-div__right .percentages__wrapper {
+  background-color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.7rem;
+  color: #3e97ff;
+}
+
+@media (max-width: 667px) {
+  .upper-div__right .percentages__wrapper {
+    padding: 0.5rem 0.7rem;
+  }
+}
+
+.upper-div__right .percentages__wrapper:first-child {
+  color: #ffc320;
+}
+
+.upper-div__right .percentages__wrapper:last-child {
+  color: #27be0b;
+}
+
+.upper-div__right .percentages__content {
+  margin: 0.8rem 4rem;
+}
+
+@media (max-width: 667px) {
+  .upper-div__right .percentages__content {
+    margin: 0.5rem 1.2rem;
+  }
+}
+
+.upper-div__right .percentages__content p {
+  font-size: 24px;
+}
+
+.upper-div__right .percentages__content p span {
+  color: #525252 !important;
+  font-size: 12px;
+}
+
+.upper-div__right .percentages__content h4 {
+  text-transform: uppercase;
+}
+
+.upper-div__colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.2rem 0;
+  width: 100%;
+  height: 1.2rem;
+}
+
+.upper-div__colors div {
+  height: 100%;
+  width: 33.3%;
+  background-color: #3e97ff;
+}
+
+.upper-div__colors div:first-child {
+  background-color: #ffc320;
+}
+
+.upper-div__colors div:last-child {
+  background-color: #27be0b;
+}
+
+.upper-div .actions {
+  background-color: #fff;
+  width: 90%;
+  margin: 1.2rem auto;
+  border-radius: 0.6rem;
+  text-align: center;
+  padding: 0.8rem 0;
+  color: #ff5d27;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.upper-div__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #bababa;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+@media (max-width: 667px) {
+  .upper-div__button {
+    display: none;
+  }
+}
+
+.upper-div__button .button-icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #bababa;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+/*# sourceMappingURL=upper.css.map */

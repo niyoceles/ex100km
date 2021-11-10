@@ -1,0 +1,103 @@
+.popup-model1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+
+.popup-model1__wrapper {
+  background-color: #fff;
+  width: 80%;
+  margin: 6rem auto;
+  position: relative;
+}
+
+.popup-model1__wrapper__close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  width: 2rem;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+
+.popup-model1__container {
+  width: 80%;
+  margin: 6rem auto;
+  padding: 6rem 0 !important;
+}
+
+.popup-model1__container h3 {
+  font-weight: 700;
+  font-size: 24pt;
+}
+
+.popup-model1__container p {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.popup-model1__container p span {
+  font-weight: 700;
+}
+
+.popup-model1__container .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.popup-model1__container .grid-container .grid-item {
+  font-size: 30px;
+  padding: 20px 8px !important;
+}
+
+.popup-model1__container .grid-container .grid-item > h6 {
+  margin-bottom: 0.9rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #333333;
+}
+
+.popup-model1__container .grid-container .grid-item > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: solid 1px #cccccc;
+}
+
+.popup-model1__container .grid-container .grid-item > div .last {
+  font-size: 14px;
+}
+
+.popup-model1__container .grid-container .grid-item > div .last span {
+  font-weight: 700;
+}
+
+.popup-model1__container .grid-container .grid-item > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-model1__container .grid-container .grid-item > div > div > div {
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  width: 0.6rem;
+  background-color: #3e97ff;
+  margin-right: 0.8rem;
+}
+/*# sourceMappingURL=model1.css.map */

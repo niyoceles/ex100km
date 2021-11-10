@@ -1,0 +1,257 @@
+.main-div {
+  padding: 0 2.3rem;
+}
+
+.main-div__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.9rem 2.8rem;
+}
+
+@media (max-width: 667px) {
+  .main-div__heading {
+    display: none;
+  }
+}
+
+.main-div__heading h1 {
+  color: #000;
+  font-weight: bold;
+}
+
+@media (max-width: 667px) {
+  .main-div .display-small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 667px) {
+  .main-div .display-small {
+    display: none;
+  }
+}
+
+.main-div__heading-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem 0;
+}
+
+@media (min-width: 667px) {
+  .main-div__heading-mobile {
+    display: none;
+  }
+}
+
+.main-div__heading-mobile button {
+  padding: 0.4rem 1.2rem;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.main-div__menu {
+  width: 60%;
+}
+
+.main-div__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: #333333;
+}
+
+.main-div__menu ul li button {
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #eeeeee;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+}
+
+.main-div__main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-div__aside {
+  width: 30%;
+}
+
+@media (max-width: 667px) {
+  .main-div__aside {
+    display: none;
+  }
+}
+
+.main-div__right {
+  width: 70%;
+  margin-right: 3.6rem;
+}
+
+@media (max-width: 667px) {
+  .main-div__right {
+    margin-right: 0.5rem;
+    width: 100% !important;
+  }
+}
+
+.main-div__image-wrapper {
+  width: 50%;
+}
+
+.main-div__content-wrapper {
+  width: 50%;
+  margin-left: 1.5rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-div__content-wrapper .heading {
+  font-size: 28px;
+}
+
+.main-div__content-wrapper .heading span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-div__content-wrapper .middle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-div__content-wrapper .middle-section div:first-of-type p {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.main-div__content-wrapper .middle-section div:last-of-type {
+  padding: 0 3rem;
+  border: solid 1px #3e97ff;
+  color: #3e97ff;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  max-height: 80px;
+}
+
+.main-div__content-wrapper .car-prices div:first-of-type * {
+  font-size: 18px;
+}
+
+.main-div__content-wrapper .car-prices div:first-of-type span {
+  font-size: 26px !important;
+  color: #3e97ff;
+}
+
+.main-div__content-wrapper .car-prices div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.2rem 0;
+  width: 100%;
+  height: 0.5rem;
+}
+
+.main-div__content-wrapper .car-prices div:last-of-type div {
+  width: 16%;
+  margin-right: 0.4%;
+  height: 100%;
+  background-color: #cccccc;
+}
+
+.main-div__content-wrapper .car-prices div:last-of-type div:first-of-type {
+  background-color: #3e97ff;
+}
+
+.main-div__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: solid 2px #cccccc;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 667px) {
+  .main-div__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .main-div__container > div {
+    width: 100% !important;
+  }
+}
+
+.main-div__aside-container {
+  margin-left: 2.4rem;
+}
+
+.main-div__aside-container h4 {
+  color: #ff5d27;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 1.8rem 0;
+}
+
+.main-div__aside-container ul li {
+  margin: 1.4rem 0 !important;
+  font-size: 20px;
+}
+
+.main-div__aside-container ul li input {
+  margin-right: 0.8rem !important;
+}
+/*# sourceMappingURL=main.css.map */
