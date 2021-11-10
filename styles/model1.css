@@ -15,6 +15,19 @@
   position: relative;
 }
 
+@media screen and (min-height: 1030px) {
+  .popup-model1__wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .popup-model1__wrapper {
+    margin: 2rem auto !important;
+    width: 95%;
+  }
+}
+
 .popup-model1__wrapper__close {
   position: absolute;
   top: 1.2rem;
@@ -49,6 +62,13 @@
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 667px) {
+  .popup-model1__container .grid-container {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
 }
 
 .popup-model1__container .grid-container .grid-item {

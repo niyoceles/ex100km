@@ -12,16 +12,24 @@ const model1Popup = document.querySelector('.popup-model1');
 const model2Popup = document.querySelector('.popup-model2');
 const model3Popup = document.querySelector('.popup-model3');
 
-const openigButton = document.querySelector(
+const openingButton = document.querySelector(
   '.upper-div__button'
 );
+
 const actionButton = document.querySelector('.actions');
+
+const mobileOpeningButton = document.querySelector(
+  '.display-small'
+);
 
 const openModel3 = document.querySelector(
   '.main-div__container'
 );
 
-openigButton.addEventListener('click', (e) => {
+openingButton.addEventListener('click', (e) => {
+  model1Popup.style.display = 'inherit';
+});
+mobileOpeningButton.addEventListener('click', (e) => {
   model1Popup.style.display = 'inherit';
 });
 

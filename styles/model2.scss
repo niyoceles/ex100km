@@ -12,6 +12,15 @@
     margin: 4.5rem auto;
     position: relative;
 
+    @media screen and (min-height: 1030px) {
+      width: 600px;
+    }
+
+    @media screen and (max-width: 667px) {
+      margin: 2rem auto !important;
+      width: 95%;
+    }
+
     &__close {
       position: absolute;
       top: 1.2rem;
@@ -95,6 +104,10 @@
     width: 100%;
     padding: 4rem 8rem;
     border-radius: 2rem;
+    @media screen and (max-width: 667px) {
+      padding: 2rem 1.2rem !important;
+      border-radius: 0.5rem;
+    }
 
     & h3 {
       text-transform: uppercase;
@@ -112,6 +125,17 @@
         border-radius: 0.7rem;
         color: rgb(62, 151, 255);
         width: 32%;
+        @media screen and (max-width: 1030px) {
+          padding: 0.1rem 0.4rem !important;
+        }
+
+        @media screen and (max-width: 667px) {
+          padding: 0.5rem 0.7rem;
+        }
+
+        @media screen and (max-width: 400px) {
+          margin: 1.2rem 0;
+        }
       }
 
       &__wrapper:first-child {
@@ -123,6 +147,14 @@
 
       &__content {
         margin: 0.8rem 2rem;
+
+        @media screen and (max-width: 887px) {
+          margin: 0.4rem 1.2rem;
+        }
+
+        @media screen and (max-width: 667px) {
+          margin: 0.3rem 1rem;
+        }
         & p {
           font-size: 24px;
           & span {

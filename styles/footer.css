@@ -1,0 +1,88 @@
+footer {
+  background-color: #252525;
+  width: 100%;
+  padding: 0.8rem 3rem;
+  color: #e4e4e4;
+}
+
+footer > .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 1px #e4e4e4;
+  margin-bottom: 2.2rem;
+  padding: 1.6rem 0;
+}
+
+@media screen and (max-width: 667px) {
+  footer > .footer-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+footer > .footer-links > div:first-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 667px) {
+  footer > .footer-links > div:first-of-type {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+footer > .footer-links > div:first-of-type span:first-of-type {
+  font-size: 22pt;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 667px) {
+  footer > .footer-links > div:first-of-type span:last-of-type {
+    margin: 1rem 0;
+  }
+}
+
+footer > .footer-links > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer > .footer-links > div:last-of-type > span {
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+
+footer > .footer-content {
+  text-align: center;
+}
+
+footer > .footer-content > p {
+  letter-spacing: 0.05rem;
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 1.1rem;
+  margin-bottom: 1.7rem;
+}
+/*# sourceMappingURL=footer.css.map */

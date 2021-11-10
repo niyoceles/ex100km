@@ -88,7 +88,7 @@
           align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   .upper-div__right .percentages {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -104,9 +104,21 @@
   color: #3e97ff;
 }
 
+@media screen and (max-width: 1030px) {
+  .upper-div__right .percentages__wrapper {
+    padding: 0.1rem 0.4rem !important;
+  }
+}
+
 @media screen and (max-width: 667px) {
   .upper-div__right .percentages__wrapper {
     padding: 0.5rem 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .upper-div__right .percentages__wrapper {
+    margin: 1.2rem 0;
   }
 }
 
@@ -120,6 +132,12 @@
 
 .upper-div__right .percentages__content {
   margin: 0.8rem 4rem;
+}
+
+@media screen and (max-width: 887px) {
+  .upper-div__right .percentages__content {
+    margin: 0.6rem 1.5rem;
+  }
 }
 
 @media screen and (max-width: 667px) {
